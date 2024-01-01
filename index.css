@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+    background-color: #171717;
+    
+}
+.title{
+    font-size: 90px;
+    color: #16DB65;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+input{
+    width: 40%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #16DB65 ;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #171717;
+    color: #16DB65;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+#go , button{
+    position: relative;
+    place-items:bottom;
+    background-color:transparent;
+    border: none ;
+    font-size: 40px;
+    color: #16DB65;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 70px;
+    transition: transform 0.3s ease-in-out; 
+    margin-top: 20px;
+}
+#go:hover , button:hover{
+    background-color: #16DB65;
+    color: #171717;
+    transform: translateX(10px); 
+}
+#quizgo , #finish{
+    bottom: 0;
+    padding: 10px 0;
+  }
+h2{
+    font-size: 40px;
+    color: #16DB65;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#finish{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #16DB65;
+}
